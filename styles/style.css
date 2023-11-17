@@ -30,7 +30,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0 var(--space-s);
 }
 
 main,
@@ -44,12 +45,14 @@ footer {
 
 .photoWrapper {
   width: 100%;
-  max-width: 320px;
+  max-width: 640px;
+  min-width: 240px;
   aspect-ratio: 1 / 1;
   background-image: url(../img/static.png);
   background-position: center center;
   background-size: cover;
   margin: var(--space-l) auto 0;
+  cursor: default;
 
   &:hover {
     background-image: url(../img/placeholdergif.gif);
