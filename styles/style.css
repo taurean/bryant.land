@@ -80,7 +80,7 @@ footer {
 .playlistAnchorLockup a {
   border: 1px solid var(--hue-border);
   display: inline-block;
-  padding: var(--space-2xs) var(--space-xs) var(--space-2xs) var(--space-3xs);
+  padding: var(--space-2xs) var(--space-xs) var(--space-2xs) var(--space-2xs);
   border-radius: var(--radii-default);
   color: var(--hue-accent);
 
